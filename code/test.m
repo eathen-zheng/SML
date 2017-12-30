@@ -1,4 +1,4 @@
-baseDir = '../../';
+baseDir = '../';
 wordTxt = 'train/words.txt';
 testTxt = 'data/test.txt';
 trainTxt = 'data/train.txt';
@@ -9,7 +9,7 @@ load '../model/FinalModel.mat'
 load '../data/test.mat'
 load '../data/train.mat'
 
-Row = 4; Col = 5; k = 5;
+Row = 2; Col = 3; k = 5;
 
 testCnt = size(testList, 1);
 testIdxList = randperm(testCnt);
