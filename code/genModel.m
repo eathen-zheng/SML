@@ -1,4 +1,4 @@
-%% genModel: function description
+%% genModel: generate GMM model of each word
 function [Model] = genModel(baseDir, wordTxt)
     wordList = textread([baseDir, wordTxt], '%s');
     wordCnt = size(wordList, 1);

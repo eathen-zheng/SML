@@ -1,8 +1,7 @@
-%% tag2data: function description
- %% Output:
- %% X2: [#(imgEachTag), d, K]
- %%     that is #(imgEachTag) of Mu1
- %%     need to change to [d, #(imgEachTag) * K]
+%% word2data: function description
+ %% Input:
+ %% filename: a txt filename for a word, each line refers to a training image
+ %% Output: 
  %% preMu: [d, N]
  %% prePi: [1, N]
  %% preSigma: [d, d, N]
